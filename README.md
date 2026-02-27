@@ -12,6 +12,25 @@ This project implements a healthcare data warehouse following best practices for
 - **Scalability**: Table partitioning, indexing strategies
 - **Data Quality**: Comprehensive ETL validation and testing
 
+---
+
+## 📸 Dashboard Screenshots
+
+| Main Dashboard | Age Group Analysis |
+|---|---|
+| ![Main Dashboard](screenshots/01_main_dashboard.png) | ![Age Group Analysis](screenshots/02_age_group_analysis.png) |
+
+| Diagnosis Insights | Provider Utilization |
+|---|---|
+| ![Diagnosis Insights](screenshots/03_diagnosis_insights.png) | ![Provider Utilization](screenshots/04_provider_utilization.png) |
+
+| Time Trends | Geographic Distribution |
+|---|---|
+| ![Time Trends](screenshots/05_time_trends.png) | ![Geographic Distribution](screenshots/06_geographic_distribution.png) |
+
+---
+
+
 ### Key Features
 
 ✅ **Star Schema Design** - Fact and dimension tables optimized for analytics  
