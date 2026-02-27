@@ -1,0 +1,60 @@
+# .gitignore for Healthcare Data Warehouse
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+# Data files (sensitive / large)
+data/*.csv
+data/*.json
+data/*.parquet
+*.db
+
+# ML Model binaries (large / reproducible via training)
+ml_models/*.pkl
+ml_models/*.joblib
+ml_models/*.h5
+ml_models/*.pt
+ml_models/*.onnx
+
+# Generated exports & reports
+exports/
+privacy_audit_report.json
+
+# Docker volumes
+postgres_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables (never commit secrets!)
+.env
+.env.*
+!.env.example
